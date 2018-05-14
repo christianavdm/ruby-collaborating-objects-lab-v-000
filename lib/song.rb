@@ -16,6 +16,6 @@ class Song
     artist = Artist.find_or_create_by_name(artist_name)
     song.artist = artist
     song.save
-    binding.pry
+    # binding.pry
   end
 end
