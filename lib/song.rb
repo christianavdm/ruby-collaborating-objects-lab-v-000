@@ -17,5 +17,4 @@ class Song
     song.artist = artist
     artist.songs << song
   end
-  binding.pry
 end
