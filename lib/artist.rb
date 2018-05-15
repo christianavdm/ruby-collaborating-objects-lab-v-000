@@ -2,7 +2,7 @@ require 'pry'
 
 class Artist
   
-  attr_accessor :name, :songs, 
+  attr_accessor :name, :songs
   
   @@all = []
   
@@ -46,10 +46,6 @@ class Artist
     @songs.each do |song|
       puts song.name
     end
-  end
-  
-  def artist_name(name)
-    Artist.find_or_create_by_name(name)
   end
   
 end
