@@ -16,6 +16,8 @@ class Song
     artist = Artist.find_or_create_by_name(artist_name)
     song.artist = artist
     artist.songs << song
+    song.artist_name = artist_name
+    song
     # binding.pry
   end
 end
