@@ -18,6 +18,5 @@ class Song
     artist.songs << song
     song.artist_name = artist_name
     song
-    # binding.pry
   end
 end
